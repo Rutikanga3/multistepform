@@ -35,7 +35,7 @@ two.style.color="white"
     four.style.color="white"
     
   }
-  four.addEventListener("mouseover",displaySecond)
+  four.addEventListener("click",displaySecond)
 
 function displySecond(){
     main.style.display="block"
