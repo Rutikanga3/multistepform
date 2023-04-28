@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border-radius: 5px;
+    display: flex;
+    gap: 1px;
+
+}
+body{
+    align-items: center;
+    margin: 20px;
+}
+.sidebar{
+    background-image:url(./assets/images/bg-sidebar-desktop.svg);
+    position: relative;
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    width: 700px;
+    background-size: contain;
+    height: 90vh;
+}
+.one{
+    border-radius: 50px;
+    width: 30px;
+    /* background-color: aqua; */
+    height: 30px;
+    align-content: center;
+    padding: 9.3px;
+    /* border-color: white; */
+    border: 1px solid white;
+    color: white;
+
+}
+.first{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+.pd{
+    padding: 50px;
+    /* padding-top: 30px; */
+}
+.two{
+    border-radius: 50px;
+    width: 30px;
+    /* background-color: aqua; */
+    height: 30px;
+    align-content: center;
+    padding: 9.3px;
+    /* border-color: white; */
+    border: 1px solid white;
+    color: white;
+
+}
+.three{
+    border-radius: 50px;
+    width: 30px;
+    /* background-color: aqua; */
+    height: 30px;
+    align-content: center;
+    padding: 9.3px;
+    /* border-color: white; */
+    border: 1px solid white;
+    color: white;
+
+}
+.four{
+    border-radius: 50px;
+    width: 30px;
+    /* background-color: aqua; */
+    height: 30px;
+    align-content: center;
+    padding: 9.3px;
+    /* border-color: white; */
+    border: 1px solid white;
+    color: white;
+
+}
+.second{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.third{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.fourth{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+h4{
+    color: white;
+
+}
+p{
+    color: rgb(177, 174, 174);
+}
+h2{
+    color: rgb(3, 3, 68);
+    font-size: 34px;
+}
+.info{
+    padding-top:40px ;
+    margin-left: 5px;
+}
+#para{
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 20px;
+    
+}
+label{
+    /* padding: 20px; */
+    color: rgb(65, 65, 189);
+    /* padding-left: 0px; */
+}
+
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid rgb(184, 181, 181);
+}
+
+button{
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(3, 3, 68); 
+    margin-left: 302px;
+    width: 100px;
+    height: 40px;
+}
+.divpart{
+    display: flex;
+    gap: 20px;
+}
+
+.fr{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(4, 4, 75);
+    padding: 20px;
+}
+
+.sc{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(4, 4, 75);
+    padding: 20px;
+}
+#p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.syp{
+    padding-top: 40px;
+}
+.check{
+    width: 300px;
+    height: 30px;
+}
+.thanky img{
+    padding-left: 600px;
+}
+.thanky{
+    padding-top: 40px;
+}
+.thanky h2{
+    padding-left: 540px;
+    padding-top: 20px;
+
+}
+.thanky p{
+    align-content: center;
+    padding-top: 30px;
+    padding-left: 400px;
+    letter-spacing: 1px;
+}

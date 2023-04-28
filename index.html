@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./assets/fonts/Ubuntu-Bold.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Ubuntu-Medium.ttf">
+  <link rel="stylesheet" href="./assets/fonts/Ubuntu-Regular.ttf">
+  <title>Multi-step form</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <div class="pd">
+      <div class="first">
+        <div class="one" id="on">1</div>
+        <div class="content">
+          <p>STEP 1</p>
+        <h4>YOUR INFO</h4>
+        </div>
+      </div>
+      <div class="second">
+        <div class="two"  id="t">2</div>
+       <div class="things">
+        <p>STEP 2</p>
+        <h4>SELECT PLAN</h4>
+       </div>
+      </div>
+      <div class="third">
+        <div class="three">3</div>
+       <div class="cont">
+        <p>STEP 3</p>
+        <h4>ADD-ONS</h4>
+       </div>
+      </div>
+      <div class="fourth">
+        <div class="four" id="for">4</div>
+     <div class="cntnt">
+      <p>STEP 4</p>
+      <h4>SUMMARY</h4>
+     </div>
+      </div></div>
+    </div>
+    <div class="info" id="infor">
+      <h2>Personal Info</h2>
+      <p id="para">Please provide your name,email,address,and phone number.</p>
+      <label for="">Name</label>
+      <br><input type="text" placeholder="e.g. Stephen King"><br>
+      <label for="">Email Address</label><br>
+      <input type="text" placeholder="e.g. StephenKing@lorem.com"><br>
+      <label for="">Phone Number</label><br>
+      <input type="text" placeholder="e.g. +1 234 567 890">
+      <br><button>Next Step</button>
+    </div>
+  
+  </div>
+  <!-- select your plan -->
+  <div class="syp" id="select">
+    <h2>Select your plan</h2>
+    <p id="p">You have the option of monthly or yearly biling.</p>
+    <div class="divpart">
+      <div class="fr">
+        <img src="./assets/images/icon-arcade.svg" alt="">
+        <h4>Arcade</h4><br>
+        <p>$9/mo</p>
+
+      </div>
+      <div class="sc">
+        <img src="./assets/images/icon-advanced.svg" alt="">
+        <h4>Advanced</h4><br>
+        <p>$12/mo</p>
+
+      </div>
+      <div class="sc">
+        <img src="./assets/images/icon-pro.svg" alt="">
+        <h4>Pro</h4><br>
+        <p>$15/mo</p>
+
+      </div>
+    </div>
+    <div class="check">
+      <!-- <img src="./assets/images/icon-checkmark.svg" alt=""> -->
+    </div>
+  </div>
+  <!-- thank you -->
+  <div class="thanky" id="th">
+    <img src="./assets/images/icon-thank-you.svg" alt="">
+    <h2>Thank You !</h2>
+    <p>Thanks for confirming your subscription! We hope you have <br>fun using our platform.if you ever need support,please feel <br>free to email us at support@loremgaming.com</p>
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
